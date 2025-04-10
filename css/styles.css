@@ -1,0 +1,22 @@
+/* == Global styles == */
+:root {
+    --font-family: "Poppins", sans-serif;
+    --second-family: "Inter", sans-serif;
+    --third-family: "Montserrat", sans-serif;
+    --font3: "FontAwesome", sans-serif;
+    --font4: "Roboto", sans-serif;
+    --font5: "ProximaNova", sans-serif;
+    --font6: "Asap Condensed", sans-serif;
+
+    --green: #02897a;
+    --blue: #4d8dff;
+    --violet: #740a76;
+    --darkgreen: #22343d;
+    --white: #fff;
+    --red: #f03e3d;
+
+    --darkerfromthree: #1f2e35;
+    --mediumfromthree: #30444e;
+    --lighterfromthree: #475e69;
+
+}
