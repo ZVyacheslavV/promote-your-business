@@ -1,4 +1,4 @@
-/* == Global styles == */
+/* == GLOBAL == */
 :root {
     --font-family: "Poppins", sans-serif;
     --second-family: "Inter", sans-serif;
@@ -43,7 +43,7 @@ button {
     margin: 0 auto;
 }
 
-/* --reset-- */
+/* --Reset-- */
 h1, h2, h3, h4, h5, h6, p {
     margin: 0;
 }
@@ -59,7 +59,7 @@ a {
     color: currentColor;
 }
 
-/* ==Header== */
+/* == HEADER == */
 .header {}
 
 .header-logo {
@@ -95,9 +95,8 @@ a {
     align-items: center;
 }
 
-/* == Main styles == */
-/* --hero section-- */
-
+/* == MAIN == */
+/* -- Hero styles -- */
 .hero-section {
     padding-top: 25px;
     padding-bottom: 100px;
@@ -132,8 +131,7 @@ a {
 
 .hero-video-btn {}
 
-/* -- product styles -- */
-
+/* -- Product styles -- */
 .product-section {
     padding-bottom: 50px;
 }
@@ -167,15 +165,16 @@ a {
     margin-bottom: 13px;
 }
 
-.product-subtitle:last-child {
-    margin-top: 26px;                   /* TODO: repair last-child margin-top to align with previous one*/
+/* TODO: repair last-child margin-top to align with previous one*/
+/* .product-subtitle:last-child {
+    margin-top: 26px;                   
     font-family: var(--font-family);
     font-weight: 600;
     font-size: 22px;
     color: var(--main-color);
     margin-bottom: 13px;
-    /* max-width: 225px; */     
-}
+    /* max-width: 226px;      
+} */
 
 .product-text {
     font-family: var(--font-family);
@@ -183,11 +182,11 @@ a {
     font-size: 16px;
     line-height: 162%;
     color: var(--main-color);
-    max-width: 226px;
+    /* max-width: 226px; */
 }
 
-.test {
-    max-width: 1033px;  /* -- для підбору чіткої до макету ширини параграфів текстів, можна замість product-text max-width: 226px;*/
+.product-container {
+    max-width: 1033px;  /* -- для підбору чіткої до макету ширини параграфів текстів (узгодження з дизайнерами), можна замість product-text max-width: 226px;*/
 }
 
 .product-btn {
