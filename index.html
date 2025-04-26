@@ -188,20 +188,22 @@
               personality of the person.
             </p>
             <ul>
-              <li>
+              <li class="customer-support-litem">
                 <img src="./images/icony.svg" alt="" width="35" height="35" />
-                <p>Never worry about overpaying for your energy again.</p>
+                <p class="customer-support-text">
+                  Never worry about overpaying for your energy again.
+                </p>
               </li>
-              <li>
+              <li class="customer-support-litem">
                 <img src="./images/iconr.svg" alt="" width="35" height="35" />
-                <p>
+                <p class="customer-support-text">
                   We will only switch you to energy companies that we trust and
                   will treat you right
                 </p>
               </li>
-              <li>
+              <li class="customer-support-litem">
                 <img src="./images/iconb.svg" alt="" width="35" height="35" />
-                <p>
+                <p class="customer-support-text">
                   We track the markets daily and know where the savings are.
                 </p>
               </li>
@@ -390,38 +392,47 @@
           height="331"
         />
       </div>
-      <div>
-        <a href="./index.html">
+      <div class="footer-product-wrapper">
+        <a class="footer-logo-link" href="./index.html">
           <img src="./images/logo.svg" alt="Logo" height="36" width="40" />
           Product
         </a>
-        <ul>
-          <li>
-            <a href="" target="_blank">
-              <img
-                src="./images/instagramicon.svg"
-                alt="instagram icon"
-                width="40"
-                height="40"
-            /></a>
+        <ul class="social-icons-list">
+          <li class="social-icons-litem">
+            <a
+              target="_blank"
+              aria-label="instagram link"
+              class="social-icon-link"
+              href=""
+            >
+              <svg class="footer-social-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
           </li>
-          <li>
-            <a href="" target="_blank">
-              <img
-                src="./images/facebookicon.svg"
-                alt="facebook icon"
-                width="40"
-                height="40"
-            /></a>
+          <li class="social-icons-litem">
+            <a
+              target="_blank"
+              aria-label="facebook link"
+              class="social-icon-link"
+              href=""
+            >
+              <svg class="footer-social-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
           </li>
-          <li>
-            <a href="" target="_blank">
-              <img
-                src="./images/twittericon.svg"
-                alt="twitter icon"
-                width="40"
-                height="40"
-            /></a>
+          <li class="social-icons-litem">
+            <a
+              target="_blank"
+              aria-label="twitter link"
+              class="social-icon-link"
+              href=""
+            >
+              <svg class="footer-social-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
           </li>
         </ul>
 
@@ -439,9 +450,31 @@
           <li><a href=""></a>Financing</li>
           <li><a href=""></a>Privacy Policy</li>
         </ul>
-
-        <p>Made With Love By Figmaland All Right Reserved</p>
       </div>
+
+      <div class="footer-form-section">
+        <p class="footer-title">
+          knowing you're always on the best energy deal.
+        </p>
+        <form class="footer-form">
+          <label class="footer-form-label" for="user-phone">
+            <!-- <div class="footer-form-input-wrapper"> -->
+            <input
+              class="footer-input-phone"
+              id="user-phone"
+              type="tel"
+              name="user-phone"
+              placeholder="Enter your phone number"
+            />
+            <svg class="footer-form-icon-svg" width="18" height="28">
+              <use href="./images/icons.svg#icon-mobile-screen"></use>
+            </svg>
+          </label>
+          <button class="footer-submit-btn">Sign up Now</button>
+        </form>
+      </div>
+
+      <p>Made With Love By Figmaland All Right Reserved</p>
     </footer>
   </body>
 </html>
